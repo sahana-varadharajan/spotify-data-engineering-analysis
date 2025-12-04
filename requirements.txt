@@ -1,0 +1,7 @@
+Library We need for this project :
+pandas
+matplotlib
+numpy
+mysql-connector-python
+spotipy
+jupyter

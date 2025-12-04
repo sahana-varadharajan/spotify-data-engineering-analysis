@@ -106,7 +106,7 @@ Playlist comparisons and clustering
 
 ## Credits
 
-Inspired by Gowtham’s tutorial (https://www.youtube.com/watch?v=gJUJ1yFHlwU&list=PLLa_h7BriLH3LrJ45gDKIoyqpcuXgzxLL&index=15). I extended this project by building an ETL pipeline, adding custom track analysis, and structuring it for reuse.”
+Inspired by Gowtham’s tutorial (https://www.youtube.com/watch?v=gJUJ1yFHlwU&list=PLLa_h7BriLH3LrJ45gDKIoyqpcuXgzxLL&index=15). I extended this project by building an ETL pipeline, adding custom track analysis, and structuring it for reuse.
 
 
 

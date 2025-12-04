@@ -41,6 +41,11 @@ project/
 └── README.md
 
 
+
+
+
+
+
 ---
 
 ## Database
@@ -55,23 +60,18 @@ Tracks are stored in a MySQL table with this structure:
 
 ## Setup
 1. Install dependencies:
-``` pip install -r requirements.txt ```
+   ``` pip install -r requirements.txt ```
 
 2. Set up MySQL:
-
-Open spotify_mysql.ipynb in Jupyter Notebook.
-
-Run all cells to create the MySQL table.
+   Open spotify_mysql.ipynb in Jupyter Notebook.
+   Run all cells to create the MySQL table.
 
 3. Add playlist URLs:
-
-Edit track_url.txt (or playlist_urls.txt) with Spotify track/playlist links, one per line.
+   Edit track_url.txt (or playlist_urls.txt) with Spotify track/playlist links, one per line.
 
 4 . Fetch and store data:
-
-Open spotify_sql_urls.ipynb in Jupyter Notebook and run all cells. This will fetch track info from Spotify and insert it into MySQL.
-
-Also visualization and taking snapshot of the table for reference.
+    Open spotify_sql_urls.ipynb in Jupyter Notebook and run all cells. This will fetch track info from Spotify and insert it into MySQL.
+    Also visualization and taking snapshot of the table for reference.
 
 5. Export the final CSV:
    ``` python scripts/export_csv.py  ```

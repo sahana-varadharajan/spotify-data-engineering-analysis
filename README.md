@@ -32,18 +32,12 @@ This project started as a simple “I want to explore my playlists” idea and g
 
 ## Project Structure
 project/
-│
-├── data/ # Exported CSVs
-├── notebooks/ # Experiments and EDA
-├── scripts/ # Core Python scripts (ETL, export, etc.)
-├── sql/ # SQL table setup
-├── requirements.txt
-└── README.md
-
-
-
-
-
+├── data/          📂 Exported CSVs
+├── notebooks/     📓 Experiments and EDA
+├── scripts/       🛠️ Core Python scripts (ETL, export, etc.)
+├── sql/           💾 SQL table setup
+├── requirements.txt 📦 Python dependencies
+└── README.md      📝 Project overview and instructions
 
 
 ---

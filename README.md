@@ -9,7 +9,7 @@ A mini-intermediate data engineering and analytics project that pulls Spotify pl
 ---
 
 ## Overview
-This project started as a simple “I want to explore my playlists” idea and grew into a small, reusable pipeline. It demonstrates practical skills in data extraction, storage, and analysis, with room for future enhancements like dashboards and ETL pipelines.
+This project started as a simple “I want to explore my playlists” idea 🎧 and grew into a small, reusable pipeline. It demonstrates practical skills in data extraction, storage, and analysis, with room for future enhancements like dashboards 📊 and ETL pipelines 🔄.
 
 ---
 
@@ -23,14 +23,18 @@ This project started as a simple “I want to explore my playlists” idea and g
 ---
 
 ## Tech Stack
-- Python
-- Spotipy (Spotify Web API wrapper)
-- SQLAlchemy + MySQL
-- Pandas / Matplotlib 
+🐍 Python
+
+🎵 Spotipy (Spotify Web API wrapper)
+
+💾 SQLAlchemy + MySQL
+
+📊 Pandas / Matplotlib 
 
 ---
 
 ## Project Structure
+```
 project/
 ├── data/          📂 Exported CSVs
 ├── notebooks/     📓 Experiments and EDA
@@ -38,6 +42,7 @@ project/
 ├── sql/           💾 SQL table setup
 ├── requirements.txt 📦 Python dependencies
 └── README.md      📝 Project overview and instructions
+ ```
 
 
 ---
@@ -57,11 +62,11 @@ Tracks are stored in a MySQL table with this structure:
    ``` pip install -r requirements.txt ```
 
 2. Set up MySQL:
-   Open spotify_mysql.ipynb in Jupyter Notebook.
+   Open spotify_mysql.ipynb in Jupyter Notebook 🖥️.
    Run all cells to create the MySQL table.
 
 3. Add playlist URLs:
-   Edit track_url.txt (or playlist_urls.txt) with Spotify track/playlist links, one per line.
+   Edit track_url.txt 📄 (or playlist_urls.txt) with Spotify track/playlist links, one per line.
 
 4 . Fetch and store data:
     Open spotify_sql_urls.ipynb in Jupyter Notebook and run all cells. This will fetch track info from Spotify and insert it into MySQL.
@@ -69,6 +74,7 @@ Tracks are stored in a MySQL table with this structure:
 
 5. Export the final CSV:
    ``` python scripts/export_csv.py  ```
+   The CSV will be generated in data/spotify_export.csv 📂
 
 ---
 

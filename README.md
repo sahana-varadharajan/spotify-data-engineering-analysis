@@ -68,7 +68,7 @@ Tracks are stored in a MySQL table with this structure:
 3. Add playlist URLs:
    Edit track_url.txt 📄 (or playlist_urls.txt) with Spotify track/playlist links, one per line.
 
-4 . Fetch and store data:
+ 4 . Fetch and store data:
     Open spotify_sql_urls.ipynb in Jupyter Notebook and run all cells. This will fetch track info from Spotify and insert it into MySQL.
     Also visualization and taking snapshot of the table for reference.
 
